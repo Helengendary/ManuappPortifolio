@@ -9,8 +9,8 @@ function App() {
           <nav>
             <a href="#sobre">Sobre</a>
             <a href="#habilidade">Habilidades</a>
-            <a href="">Projetos</a>
-            <a href="">Contato</a>
+            <a href="#projeto">Projetos</a>
+            <a href="#contato">Contato</a>
           </nav>
         </div>
       </header>
@@ -42,36 +42,87 @@ function App() {
         <h4>Inglês Iniciante</h4>
       </section>
       
-      <section className={style.projetos} >
+      <section className={style.projetos} id='projeto' >
         <h1>Projetos</h1>
 
         <div className={style.unicoProjeto}>
-          <h3>Moviefy Tickets</h3>
-          <p>Um sistema de venda de ingressos para vários cinemas de várias franquias. Comm funcionalidade para administrador e usuário.</p>
-          <a className={style.buttongit} href='https://github.com/ingridcriistine/Moviefy_Tickets'>
-            <img className={style.gitImg} src="../public/imgs/github.png" alt="GitHub" />
-            <p className={style.git} >GitHub</p>
-          </a>
+          <div>
+            <h3>Moviefy Tickets</h3>
+            <p>Um sistema de venda de ingressos para vários cinemas de várias franquias. Comm funcionalidade para administrador e usuário.</p>
+          </div>
+
+          <div>
+            <img src="../public/imgs/termo.png" alt="TERMO" />
+
+            <a className={style.buttongit} href='https://github.com/ingridcriistine/Moviefy_Tickets'>
+              <img className={style.gitImg} src="../public/imgs/github.png" alt="GitHub" />
+              <p className={style.git} >GitHub</p>
+            </a>
+          </div>
         </div>
 
         <div className={style.unicoProjeto}>
-          <h3>MEIGuia</h3>
-          <p>Um sistema desenvolvido em apenas 4 horas para um evento de Marketing Digital.</p>
-          <a className={style.buttongit} href='https://github.com/Helengendary/Ani.MEI'>
-            <img className={style.gitImg} src="../public/imgs/github.png" alt="GitHub" />
-            <p className={style.git} >GitHub</p>
-          </a>
+          <div>
+            <h3>MEIGuia</h3>
+            <p>Um sistema desenvolvido em apenas 4 horas para um evento de Marketing Digital. APENAS PARA MOBILE.</p>
+          </div>
+
+          <div>
+            <img className={style.imgProjeto} src="../public/imgs/animei.png" alt="TERMO" />
+
+            <div>
+              <a className={style.buttongit} href='https://github.com/Helengendary/TERMO'>
+                <img className={style.gitImg} src="../public/imgs/github.png" alt="GitHub" />
+                <p className={style.git} >GitHub</p>
+              </a>
+
+              <a className={style.buttongit} href='https://ani-3tr8zd90o-helena-picinin-de-limas-projects.vercel.app/'>
+                <p className={style.git} >Vercel</p>
+              </a>
+            </div>
+          </div>
         </div>
 
         <div className={style.unicoProjeto}>
-          <h3>TERMO</h3>
-          <p>Um jogo desenvolvido em equipe como projeto final da matéria de Lógica de Programação no Senai.</p>
-          <a className={style.buttongit} href='https://github.com/Helengendary/TERMO'>
-            <img className={style.gitImg} src="../public/imgs/github.png" alt="GitHub" />
-            <p className={style.git} >GitHub</p>
-          </a>
-        </div>
+          <div>
+            <h3>TERMO</h3>
+            <p>Um jogo desenvolvido em equipe como projeto final da matéria de Lógica de Programação no Senai.</p>
+          </div>
 
+          <div>
+            <img src="../public/imgs/termo.png" alt="TERMO" />
+
+            
+            <a className={style.buttongit} href='https://github.com/Helengendary/Ani.MEI'>
+              <img className={style.gitImg} src="../public/imgs/github.png" alt="GitHub" />
+              <p className={style.git} >GitHub</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id='contato'>
+        <h1>Contatos</h1>
+        
+        <a href="">
+          <img src="" alt="Whatsapp" />
+          <p>WhatsApp</p>
+        </a>
+
+        <a href="">
+          <img src="" alt="Instagram" />
+          <p>Instagram</p>
+        </a>
+
+        <a href="">
+          <img src="" alt="Pinterest" />
+          <p>Pinterest</p>
+        </a>
+
+        <a href="">
+          <img src="" alt="Gmail" />
+          <p>Gmail</p>
+        </a>
       </section>
     </>
   )
