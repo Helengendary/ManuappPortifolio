@@ -6,6 +6,7 @@
 }
 
 .menu {
+
   display: flex;
   justify-content: space-between;
   color: var(--white);
@@ -31,6 +32,17 @@
   width: 600px;
   padding: 10%;
   font-size: 20px;
+  text-align: center;
+}
+
+.xp {
+  margin-top: 10%;
+  padding: 0 2%;
+  border: 1px solid var(--gold);
+}
+
+.xp ul {
+  list-style: none;
 }
 
 .habilidades {
