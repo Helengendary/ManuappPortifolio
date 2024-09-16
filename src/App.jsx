@@ -54,9 +54,9 @@ function App() {
         </div>
 
         <div className={style.unicoProjeto}>
-          <h3>Moviefy Tickets</h3>
-          <p>Um sistema de venda de ingressos para vários cinemas de várias franquias. Comm funcionalidade para administrador e usuário.</p>
-          <a className={style.buttongit} href='https://github.com/ingridcriistine/Moviefy_Tickets'>
+          <h3>TERMO</h3>
+          <p>Um jogo desenvolvido em equipe como projeto final da matéria de Lógica de Programação no Senai.</p>
+          <a className={style.buttongit} href='https://github.com/Helengendary/TERMO'>
             <img className={style.gitImg} src="../public/imgs/github.png" alt="" />
             <p className={style.git} >GitHub</p>
           </a>
