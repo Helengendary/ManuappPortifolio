@@ -30,4 +30,21 @@
 .textAbout {
   width: 600px;
   padding: 10%;
+  font-size: 20px;
 }
+
+.habilidades {
+  margin: 10% 0;
+  display: flex;
+  font-size: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.habilidades h4 {
+  border: 2px solid rgb(153, 133, 69);
+  padding: 1% 2%;
+  margin: 2% 5%;
+  border-radius: 50px;
+}
+
