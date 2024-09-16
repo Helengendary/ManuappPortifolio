@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  color: var(--white);
+  padding: 1% 5%;
+  align-items: center;
+}
+
+.imgPrincipal {
+  width: 350px;
+  border-radius: 100%;
+}
+
+.sobre {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.textAbout {
+  width: 600px;
+  padding: 10%;
+}
