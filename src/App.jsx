@@ -34,6 +34,34 @@ function App() {
       
       <section className={style.projetos} >
         <h1>Projetos</h1>
+
+        <div className={style.unicoProjeto}>
+          <h3>Moviefy Tickets</h3>
+          <p>Um sistema de venda de ingressos para vários cinemas de várias franquias. Comm funcionalidade para administrador e usuário.</p>
+          <a className={style.buttongit} href='https://github.com/ingridcriistine/Moviefy_Tickets'>
+            <img className={style.gitImg} src="../public/imgs/github.png" alt="" />
+            <p className={style.git} >GitHub</p>
+          </a>
+        </div>
+
+        <div className={style.unicoProjeto}>
+          <h3>MEIGuia</h3>
+          <p>Um sistema desenvolvido em apenas 4 horas para um evento de Marketing Digital.</p>
+          <a className={style.buttongit} href='https://github.com/Helengendary/Ani.MEI'>
+            <img className={style.gitImg} src="../public/imgs/github.png" alt="" />
+            <p className={style.git} >GitHub</p>
+          </a>
+        </div>
+
+        <div className={style.unicoProjeto}>
+          <h3>Moviefy Tickets</h3>
+          <p>Um sistema de venda de ingressos para vários cinemas de várias franquias. Comm funcionalidade para administrador e usuário.</p>
+          <a className={style.buttongit} href='https://github.com/ingridcriistine/Moviefy_Tickets'>
+            <img className={style.gitImg} src="../public/imgs/github.png" alt="" />
+            <p className={style.git} >GitHub</p>
+          </a>
+        </div>
+
       </section>
     </>
   )
