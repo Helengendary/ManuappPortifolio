@@ -11,6 +11,7 @@
   color: var(--white);
   padding: 1% 5%;
   align-items: center;
+  background-color: rgb(0, 0, 0, 0.5);
 }
 
 .imgPrincipal {
@@ -19,6 +20,7 @@
 }
 
 .sobre {
+  padding-top: 5%;
   margin-top: 5%;
   width: 100%;
   display: flex;
