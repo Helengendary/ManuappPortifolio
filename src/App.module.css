@@ -6,7 +6,6 @@
 }
 
 .menu {
-
   display: flex;
   justify-content: space-between;
   color: var(--white);
@@ -53,9 +52,9 @@
   justify-content: center;
 }
 
-.habilidades h4 {
+.habilidades .Tilt {
   border: 2px solid var(--gold);
-  padding: 1% 2%;
+  padding: 0 2%;
   margin: 2% 5%;
   border-radius: 50px;
 }
@@ -68,6 +67,14 @@
   width: 40%;
   align-items: center;
   justify-content: center;
+  width: 200px;
+  margin: 10px 0;
+}
+
+.buttongit:hover {
+  border: 1px solid var(--white);
+  box-shadow: var(--white) 0px 1px 15px;
+  color: var(--white);
 }
 
 .gitImg {
@@ -81,14 +88,50 @@
 }
 
 .unicoProjeto {
-  width: 60%;
+  width: 90%;
   display: flex;
   background-color: rgb(28, 29, 29);
   padding: 2%;
   border-radius: 50px;
   margin: 3% 0;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.tituloProjeto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .imgProjeto {
-  width: 70%;
+  width: 300px;
+}
+
+.buttonsProjeto {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contato {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+  align-items: center;
+}
+
+.elementContato {
+  margin-top: 10px;
+  width: 200px;
+  color: var(--white);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid transparent;
 }
