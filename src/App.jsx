@@ -150,7 +150,7 @@ function App() {
             </button>
           </div>
 
-          <a className={style.elementContato} href="">
+          <a className={style.elementContato} href="https://www.instagram.com/anelehpicinin?igsh=MWVld2d6cWQ5ZWw2bA==">
             <img src={Instagram} alt="Instagram" />
             <p>Instagram</p>
           </a>
