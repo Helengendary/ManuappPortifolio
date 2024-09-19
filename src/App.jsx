@@ -19,8 +19,7 @@ function App() {
 
   const handleWhatsAppMessage = () => {
     
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=${defaultPhoneNumber}&text=
-    Mensagem:%20${message}`;
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=${defaultPhoneNumber}&text=Olá Helena, gostaria de saber mais sobre seu trabalho`;
 
     window.open(whatsappUrl, '_blank');
   }
@@ -43,7 +42,7 @@ function App() {
       <section className={style.sobre} id='sobre'>
         <img className={style.imgPrincipal} src="https://i.pinimg.com/564x/e0/81/90/e0819011a26647eaad0509a3f911f74f.jpg" alt="Helena" />
         <div className={style.textAbout}>
-          <p>Olá, meu nome é Helena Picinin de Lima! Tenho 18 anos sou natural de Curitiba.</p>
+          <p>Olá, meu nome é Helena Picinin de Lima! Tenho 18 anos sou natural de Curitiba. Estudo Sistemas de informação na PUCPR</p>
           <div className={style.xp}>
             <h1>Experiência</h1>
             <ul>
@@ -142,13 +141,10 @@ function App() {
         <h1>Contatos</h1>
         
         <div  className={style.contato}>
-          <div className={style.elementContato}>
-            <textarea id='message' name='message' value={message} onChange={handleChange} required style={{width:'100%'}} placeholder='Digite uma mensagem para Helena'></textarea>
-            <button onClick={handleWhatsAppMessage}>
-              <img src={Whatsapp} alt="Whatsapp" />
-              <p>WhatsApp</p>
-            </button>
-          </div>
+          <a className={style.elementContato} onClick={handleChange}>
+            <img src={Whatsapp} alt="Whatsapp" />
+            <p>WhatsApp</p>
+          </a>
 
           <a className={style.elementContato} href="https://www.instagram.com/anelehpicinin?igsh=MWVld2d6cWQ5ZWw2bA==">
             <img src={Instagram} alt="Instagram" />
