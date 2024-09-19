@@ -5,19 +5,12 @@ import Whatsapp from '../public/imgs/whatsapp.png'
 import Git from '../public/imgs/github.png'
 import Termo from '../public/imgs/termo.png'
 import Mei from '../public/imgs/animei.png'
-import { useState } from 'react'
 import { Tilt } from 'react-tilt'
 
 function App() {
-  const defaultPhoneNumber = '5541984962006'
-  const [message, setmessage] = useState('')
-
-  const handleChange = (e) => {
-    const {value} = e.target;
-    setmessage(value);
-  }
-
-  const handleWhatsAppMessage = () => {
+  
+  const handleChange = () => {
+    const defaultPhoneNumber = '5541984962006'
     
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${defaultPhoneNumber}&text=Olá Helena, gostaria de saber mais sobre seu trabalho`;
 
